@@ -1,12 +1,13 @@
 package main
 
 import (
-	pb "bekarir-backend/grpc_server/pubsubpb" // Ganti dengan package name yang sesuai
 	"context"
 	"fmt"
 	"log"
 	"net"
 	"sync"
+
+	pb "github.com/andreascandle/go_grpc_server/pubsubpb" // Ganti dengan package name yang sesuai
 
 	"google.golang.org/grpc"
 )
